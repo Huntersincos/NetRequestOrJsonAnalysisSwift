@@ -1,0 +1,6 @@
+framework module Pods_NetRequestOrJsonAnalysisSwift {
+  umbrella header "Pods-NetRequestOrJsonAnalysisSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

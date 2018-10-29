@@ -1,0 +1,6 @@
+platform :ios, ‘8.0’
+target ‘NetRequestOrJsonAnalysisSwift’do
+xcodeproj ‘NetRequestOrJsonAnalysisSwift.xcodeproj’
+pod ‘AFNetworking’,’~> 3.0.4’
+use_frameworks!
+end

@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54644A7E04DB70B2AD5879B0 /* Pods_NetRequestOrJsonAnalysisSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00EB90A2895758396A5C33C7 /* Pods_NetRequestOrJsonAnalysisSwift.framework */; };
+		6E18DDB12187058B00E333F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E18DDB02187058B00E333F9 /* AppDelegate.swift */; };
+		6E18DDB32187058B00E333F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E18DDB22187058B00E333F9 /* ViewController.swift */; };
+		6E18DDB62187058B00E333F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E18DDB42187058B00E333F9 /* Main.storyboard */; };
+		6E18DDB82187058B00E333F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E18DDB72187058B00E333F9 /* Assets.xcassets */; };
+		6E18DDBB2187058B00E333F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E18DDB92187058B00E333F9 /* LaunchScreen.storyboard */; };
+		6E18DDC62187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E18DDC52187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftTests.swift */; };
+		6E18DDD12187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E18DDD02187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E18DDC22187058B00E333F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E18DDA52187058B00E333F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E18DDAC2187058B00E333F9;
+			remoteInfo = NetRequestOrJsonAnalysisSwift;
+		};
+		6E18DDCD2187058B00E333F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E18DDA52187058B00E333F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E18DDAC2187058B00E333F9;
+			remoteInfo = NetRequestOrJsonAnalysisSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00EB90A2895758396A5C33C7 /* Pods_NetRequestOrJsonAnalysisSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetRequestOrJsonAnalysisSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E18DDAD2187058B00E333F9 /* NetRequestOrJsonAnalysisSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetRequestOrJsonAnalysisSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E18DDB02187058B00E333F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E18DDB22187058B00E333F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E18DDB52187058B00E333F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E18DDB72187058B00E333F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E18DDBA2187058B00E333F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E18DDBC2187058B00E333F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E18DDC12187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetRequestOrJsonAnalysisSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E18DDC52187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetRequestOrJsonAnalysisSwiftTests.swift; sourceTree = "<group>"; };
+		6E18DDC72187058B00E333F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E18DDCC2187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetRequestOrJsonAnalysisSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E18DDD02187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetRequestOrJsonAnalysisSwiftUITests.swift; sourceTree = "<group>"; };
+		6E18DDD22187058B00E333F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CBB2184F433345E3B8E32D6 /* Pods-NetRequestOrJsonAnalysisSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetRequestOrJsonAnalysisSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetRequestOrJsonAnalysisSwift/Pods-NetRequestOrJsonAnalysisSwift.release.xcconfig"; sourceTree = "<group>"; };
+		9F3A24D5F643C40E7C30C025 /* Pods-NetRequestOrJsonAnalysisSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetRequestOrJsonAnalysisSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetRequestOrJsonAnalysisSwift/Pods-NetRequestOrJsonAnalysisSwift.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E18DDAA2187058B00E333F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54644A7E04DB70B2AD5879B0 /* Pods_NetRequestOrJsonAnalysisSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E18DDBE2187058B00E333F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E18DDC92187058B00E333F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		692A8BEDC81AC739B143C25F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00EB90A2895758396A5C33C7 /* Pods_NetRequestOrJsonAnalysisSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E18DDA42187058B00E333F9 = {
+			isa = PBXGroup;
+			children = (
+				6E18DDAF2187058B00E333F9 /* NetRequestOrJsonAnalysisSwift */,
+				6E18DDC42187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftTests */,
+				6E18DDCF2187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftUITests */,
+				6E18DDAE2187058B00E333F9 /* Products */,
+				997C0E13B8CF10A132B2F62D /* Pods */,
+				692A8BEDC81AC739B143C25F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E18DDAE2187058B00E333F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E18DDAD2187058B00E333F9 /* NetRequestOrJsonAnalysisSwift.app */,
+				6E18DDC12187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftTests.xctest */,
+				6E18DDCC2187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E18DDAF2187058B00E333F9 /* NetRequestOrJsonAnalysisSwift */ = {
+			isa = PBXGroup;
+			children = (
+				6E18DDB02187058B00E333F9 /* AppDelegate.swift */,
+				6E18DDB22187058B00E333F9 /* ViewController.swift */,
+				6E18DDB42187058B00E333F9 /* Main.storyboard */,
+				6E18DDB72187058B00E333F9 /* Assets.xcassets */,
+				6E18DDB92187058B00E333F9 /* LaunchScreen.storyboard */,
+				6E18DDBC2187058B00E333F9 /* Info.plist */,
+			);
+			path = NetRequestOrJsonAnalysisSwift;
+			sourceTree = "<group>";
+		};
+		6E18DDC42187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E18DDC52187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftTests.swift */,
+				6E18DDC72187058B00E333F9 /* Info.plist */,
+			);
+			path = NetRequestOrJsonAnalysisSwiftTests;
+			sourceTree = "<group>";
+		};
+		6E18DDCF2187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E18DDD02187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftUITests.swift */,
+				6E18DDD22187058B00E333F9 /* Info.plist */,
+			);
+			path = NetRequestOrJsonAnalysisSwiftUITests;
+			sourceTree = "<group>";
+		};
+		997C0E13B8CF10A132B2F62D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F3A24D5F643C40E7C30C025 /* Pods-NetRequestOrJsonAnalysisSwift.debug.xcconfig */,
+				9CBB2184F433345E3B8E32D6 /* Pods-NetRequestOrJsonAnalysisSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E18DDAC2187058B00E333F9 /* NetRequestOrJsonAnalysisSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E18DDD52187058B00E333F9 /* Build configuration list for PBXNativeTarget "NetRequestOrJsonAnalysisSwift" */;
+			buildPhases = (
+				4F425B038F9866972D84F3A0 /* [CP] Check Pods Manifest.lock */,
+				6E18DDA92187058B00E333F9 /* Sources */,
+				6E18DDAA2187058B00E333F9 /* Frameworks */,
+				6E18DDAB2187058B00E333F9 /* Resources */,
+				48FED41A19ED79A3B4DCDAA9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetRequestOrJsonAnalysisSwift;
+			productName = NetRequestOrJsonAnalysisSwift;
+			productReference = 6E18DDAD2187058B00E333F9 /* NetRequestOrJsonAnalysisSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E18DDC02187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E18DDD82187058B00E333F9 /* Build configuration list for PBXNativeTarget "NetRequestOrJsonAnalysisSwiftTests" */;
+			buildPhases = (
+				6E18DDBD2187058B00E333F9 /* Sources */,
+				6E18DDBE2187058B00E333F9 /* Frameworks */,
+				6E18DDBF2187058B00E333F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E18DDC32187058B00E333F9 /* PBXTargetDependency */,
+			);
+			name = NetRequestOrJsonAnalysisSwiftTests;
+			productName = NetRequestOrJsonAnalysisSwiftTests;
+			productReference = 6E18DDC12187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E18DDCB2187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E18DDDB2187058B00E333F9 /* Build configuration list for PBXNativeTarget "NetRequestOrJsonAnalysisSwiftUITests" */;
+			buildPhases = (
+				6E18DDC82187058B00E333F9 /* Sources */,
+				6E18DDC92187058B00E333F9 /* Frameworks */,
+				6E18DDCA2187058B00E333F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E18DDCE2187058B00E333F9 /* PBXTargetDependency */,
+			);
+			name = NetRequestOrJsonAnalysisSwiftUITests;
+			productName = NetRequestOrJsonAnalysisSwiftUITests;
+			productReference = 6E18DDCC2187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E18DDA52187058B00E333F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = wenze;
+				TargetAttributes = {
+					6E18DDAC2187058B00E333F9 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					6E18DDC02187058B00E333F9 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E18DDAC2187058B00E333F9;
+					};
+					6E18DDCB2187058B00E333F9 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E18DDAC2187058B00E333F9;
+					};
+				};
+			};
+			buildConfigurationList = 6E18DDA82187058B00E333F9 /* Build configuration list for PBXProject "NetRequestOrJsonAnalysisSwift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E18DDA42187058B00E333F9;
+			productRefGroup = 6E18DDAE2187058B00E333F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E18DDAC2187058B00E333F9 /* NetRequestOrJsonAnalysisSwift */,
+				6E18DDC02187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftTests */,
+				6E18DDCB2187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E18DDAB2187058B00E333F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E18DDBB2187058B00E333F9 /* LaunchScreen.storyboard in Resources */,
+				6E18DDB82187058B00E333F9 /* Assets.xcassets in Resources */,
+				6E18DDB62187058B00E333F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E18DDBF2187058B00E333F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E18DDCA2187058B00E333F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48FED41A19ED79A3B4DCDAA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NetRequestOrJsonAnalysisSwift/Pods-NetRequestOrJsonAnalysisSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetRequestOrJsonAnalysisSwift/Pods-NetRequestOrJsonAnalysisSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F425B038F9866972D84F3A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetRequestOrJsonAnalysisSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E18DDA92187058B00E333F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E18DDB32187058B00E333F9 /* ViewController.swift in Sources */,
+				6E18DDB12187058B00E333F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E18DDBD2187058B00E333F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E18DDC62187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E18DDC82187058B00E333F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E18DDD12187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E18DDC32187058B00E333F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E18DDAC2187058B00E333F9 /* NetRequestOrJsonAnalysisSwift */;
+			targetProxy = 6E18DDC22187058B00E333F9 /* PBXContainerItemProxy */;
+		};
+		6E18DDCE2187058B00E333F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E18DDAC2187058B00E333F9 /* NetRequestOrJsonAnalysisSwift */;
+			targetProxy = 6E18DDCD2187058B00E333F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E18DDB42187058B00E333F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E18DDB52187058B00E333F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E18DDB92187058B00E333F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E18DDBA2187058B00E333F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E18DDD32187058B00E333F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E18DDD42187058B00E333F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E18DDD62187058B00E333F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F3A24D5F643C40E7C30C025 /* Pods-NetRequestOrJsonAnalysisSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetRequestOrJsonAnalysisSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenze.NetRequestOrJsonAnalysisSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E18DDD72187058B00E333F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CBB2184F433345E3B8E32D6 /* Pods-NetRequestOrJsonAnalysisSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetRequestOrJsonAnalysisSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenze.NetRequestOrJsonAnalysisSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E18DDD92187058B00E333F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetRequestOrJsonAnalysisSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenze.NetRequestOrJsonAnalysisSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetRequestOrJsonAnalysisSwift.app/NetRequestOrJsonAnalysisSwift";
+			};
+			name = Debug;
+		};
+		6E18DDDA2187058B00E333F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetRequestOrJsonAnalysisSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenze.NetRequestOrJsonAnalysisSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetRequestOrJsonAnalysisSwift.app/NetRequestOrJsonAnalysisSwift";
+			};
+			name = Release;
+		};
+		6E18DDDC2187058B00E333F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetRequestOrJsonAnalysisSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenze.NetRequestOrJsonAnalysisSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetRequestOrJsonAnalysisSwift;
+			};
+			name = Debug;
+		};
+		6E18DDDD2187058B00E333F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetRequestOrJsonAnalysisSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenze.NetRequestOrJsonAnalysisSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetRequestOrJsonAnalysisSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E18DDA82187058B00E333F9 /* Build configuration list for PBXProject "NetRequestOrJsonAnalysisSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E18DDD32187058B00E333F9 /* Debug */,
+				6E18DDD42187058B00E333F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E18DDD52187058B00E333F9 /* Build configuration list for PBXNativeTarget "NetRequestOrJsonAnalysisSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E18DDD62187058B00E333F9 /* Debug */,
+				6E18DDD72187058B00E333F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E18DDD82187058B00E333F9 /* Build configuration list for PBXNativeTarget "NetRequestOrJsonAnalysisSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E18DDD92187058B00E333F9 /* Debug */,
+				6E18DDDA2187058B00E333F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E18DDDB2187058B00E333F9 /* Build configuration list for PBXNativeTarget "NetRequestOrJsonAnalysisSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E18DDDC2187058B00E333F9 /* Debug */,
+				6E18DDDD2187058B00E333F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E18DDA52187058B00E333F9 /* Project object */;
+}
