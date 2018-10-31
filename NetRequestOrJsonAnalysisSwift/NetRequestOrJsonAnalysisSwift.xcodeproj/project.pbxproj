@@ -15,6 +15,7 @@
 		6E18DDBB2187058B00E333F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E18DDB92187058B00E333F9 /* LaunchScreen.storyboard */; };
 		6E18DDC62187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E18DDC52187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftTests.swift */; };
 		6E18DDD12187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E18DDD02187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftUITests.swift */; };
+		6E39B04B21885B1300E00332 /* SWURLSessionManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E39B04A21885B1300E00332 /* SWURLSessionManger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6E18DDCC2187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetRequestOrJsonAnalysisSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E18DDD02187058B00E333F9 /* NetRequestOrJsonAnalysisSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetRequestOrJsonAnalysisSwiftUITests.swift; sourceTree = "<group>"; };
 		6E18DDD22187058B00E333F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E39B04A21885B1300E00332 /* SWURLSessionManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWURLSessionManger.swift; sourceTree = "<group>"; };
 		9CBB2184F433345E3B8E32D6 /* Pods-NetRequestOrJsonAnalysisSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetRequestOrJsonAnalysisSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetRequestOrJsonAnalysisSwift/Pods-NetRequestOrJsonAnalysisSwift.release.xcconfig"; sourceTree = "<group>"; };
 		9F3A24D5F643C40E7C30C025 /* Pods-NetRequestOrJsonAnalysisSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetRequestOrJsonAnalysisSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetRequestOrJsonAnalysisSwift/Pods-NetRequestOrJsonAnalysisSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,6 +116,7 @@
 			children = (
 				6E18DDB02187058B00E333F9 /* AppDelegate.swift */,
 				6E18DDB22187058B00E333F9 /* ViewController.swift */,
+				6E39B04A21885B1300E00332 /* SWURLSessionManger.swift */,
 				6E18DDB42187058B00E333F9 /* Main.storyboard */,
 				6E18DDB72187058B00E333F9 /* Assets.xcassets */,
 				6E18DDB92187058B00E333F9 /* LaunchScreen.storyboard */,
@@ -286,15 +289,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-NetRequestOrJsonAnalysisSwift/Pods-NetRequestOrJsonAnalysisSwift-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 			);
@@ -308,15 +307,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-NetRequestOrJsonAnalysisSwift-checkManifestLockResult.txt",
 			);
@@ -332,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E39B04B21885B1300E00332 /* SWURLSessionManger.swift in Sources */,
 				6E18DDB32187058B00E333F9 /* ViewController.swift in Sources */,
 				6E18DDB12187058B00E333F9 /* AppDelegate.swift in Sources */,
 			);
