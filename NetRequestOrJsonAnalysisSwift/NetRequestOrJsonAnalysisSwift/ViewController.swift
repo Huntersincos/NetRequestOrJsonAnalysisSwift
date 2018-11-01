@@ -14,8 +14,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         SWURLSessionManger.shareSessionManger.swReqeust(method: SWURLRequestMethod.GET, urlString: "https://www.gx.10086.cn/zt-hzg/zt/openapi/getNavJsonHzgYM/7623B57CB225A8EF8455FE4D0563D60C67F958FC8F8AFFF74A7309C28043F5D7/1534210920448", parameters:nil,completed: { (json:AnyObject?, isSuccess:Bool) in
-            print("json=\(String(describing: json))")
-           
+            //print("json=\(String(describing: json))")
+            let jsonDic = SWURLSessionManger.shareSessionManger.dataToDictionary(data: json as! Data)
+            print(jsonDic)
+            
          
         })
     }

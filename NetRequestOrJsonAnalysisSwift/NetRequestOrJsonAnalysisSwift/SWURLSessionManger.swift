@@ -45,7 +45,18 @@ class SWURLSessionManger: AFHTTPSessionManager {
           post(urlString, parameters: parameters, progress: nil, success: success, failure:failure)
         }
     }
- 
     
+    /**
+     * @explation:NSdata转化成NSDictionary
+    **/
+    func dataToDictionary(data:Data) -> Dictionary<String,Any> {
+        do {
+            let json =  try JSONSerialization.jsonObject(with: data as Data, options: .mutableLeaves)
+            return json as! Dictionary<String,Any>
+        } catch _  {
+            /**错误解析*/
+             return Dictionary.init()
+        }
+    }
     
 }
